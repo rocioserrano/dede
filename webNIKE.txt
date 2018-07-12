@@ -1,34 +1,32 @@
 <!doctype html>
 <html>
 <head>
-  <title>NL Fashion</title>
-  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <title>NL Fashion ADIDAS</title>
+  <link rel='stylesheet' type='text/css'>
   <style>
-  <h1> NL Fashion </h1>
     /* normalize.css 2011-06-23T00:50 UTC //github.com/jonathantneal/normalize.css */
     article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}html{cursor:default;font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:transparent;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body,form,input,button,select,textarea{font-size:100%;margin:0}a,a:active,a:hover{outline:none}a:focus{outline:thin dotted}abbr{_border-bottom:expression(this.title ? '1px dotted':'none')}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}mark{background:#FF0;color:#000}pre,code,kbd,samp{font-family:monospace,monospace;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small,sub,sup{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}nav ul{list-style:none}audio[controls],canvas,video{display:inline-block;*display:inline}audio{display:none;_display:expression(this.controls ? 'inline':'none');*zoom:1}audio[controls]{display:inline-block}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){ overflow:hidden}legend{*margin-left:-7px}button,input,select,textarea{vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal;_overflow:expression(this.type == 'button|reset|submit' ? 'visible':'')}button,input[type="button"],input[type="reset"],input[type="submit"]{overflow:visible;-webkit-appearance:button}input[type="checkbox"],input[type="radio"]{box-sizing:border-box}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
     body {
       color: #444444;
       font-family: Helvetica, Arial, sans-serif;
-	 
     }
     h1 {
       font-size: 48px;
-      color:#50e3ea;
-	}
-	
+	  color: #50e3ea;
+    }
     h2 {
-      font-size: 80px;
-	  color:#50e3ea;
+      font-size: 49px;
+	  color: #50e3ea;
     }
     h1, h2, h3 {
       font-family: 'Oswald', sans-serif;
-	  color:#50e3ea;
-	  
+	  color: #50e3ea;
     }
     p {
       line-height: 1.4;
       font-size: 15px;
+	  color: #50e3ea;
+
     }
     img.logo {
       margin: 0 auto;
@@ -44,24 +42,21 @@
       margin-right: 20px;
     }
     img.favourite {
-      border-radius: 10%;
-      width: 300px;
+      border: 1px solid #50e3ea;
+      border-radius: 50%;
+      width: 200px;
       padding: 5px;
       margin: 10px;
-	  height: 400px;
     }
     section.banner {
-      padding-top: 0px;
-      padding-bottom: 0px;
-      background: url('images/background.jpg') center center;
-      background-attachment: fixed;
-      color: #f51c1c;
+      padding-top: 110px;
+      padding-bottom: 100px;
+      color: #ffffff;
       text-align: center;
-	  width: 600px;
-	  height: 600px;
     }
     section.banner p {
-      font-size: 22px;
+      font-size: 40px;
+	  color: #50e3ea;
     }
     section.banner h1 {
       text-transform: uppercase;
@@ -88,8 +83,7 @@
       padding: 50px 100px;
     }
     section.box h2, section.box h3 {
-      color:#50e3ea;
-	}
+      color: #50e3ea;
     }
     .menu {
       list-style: none;
@@ -113,47 +107,44 @@
       font-weight: bold;
       text-transform: uppercase;
       font-family: 'Oswald', sans-serif;
-    
-	}
-	img {
-	  width: 1400px;
-	  height: 600px;
-	  }
- 
+    }
   </style>
 </head>
 <body>
-<div>
-  <ul class="menu" >
-    <li><a href="adidas.html">Adidas</a> </li>
-    <li><a href="webNIKE.html">Nike</a> </li>
-    <li><a href="webPUMA.html">Puma</a></li>
-	<li><a href=>Fila</a></li>
-	<li><a href=>Hollister</a></li>
+  <ul class="menu">
+    <li><a href="#mujer">Mujer</a></li>
+    <li><a href="#hombre">Hombre</a></li>
+   
   </ul>
-</div>
   <section class="banner">
-  <img src="IM/fondo1.jpg"> </img>
+  <img src="images/fondo.jpg"style="width: 1300px; height: 700px; position: center;"> </img> ;
  
   </section>
-  <section id="about" class="about box">
-    <h2>Promocion verano</h2>
-	<img src="IM/cc.jpg"style="width: 1000px; height:600px; position: center;"> </img>
- 
-  <section id="favourites" class="favourites box">
-    <h2>Ropa TOP</h2>
-    <img class="favourite" src="IM/adidas.jpg">
-    <img class="favourite" src="IM/NIKE.jpg">
-    <img class="favourite" src="IM/FILA.jpg">
-    <img class="favourite" src="IM/holli.jpg">
+  <section id="mujer" class="about box">
+    <h2>MUJERES</h2>
+   <img class="favourite" src="IMM/c.jpg">
+   <img class="favourite" src="IMM/2.jpg">
+   <img class="favourite" src="IMM/3.jpg">
+   <img class="favourite" src="IMM/4.jpg">
+   <img class="favourite" src="IMM/5.jpg">
+   <img class="favourite" src="IMM/11.jpg">
+   <img class="favourite" src="IMM/12.jpg">
+   <img class="favourite" src="IMM/13.jpg">
+    <p>
   </section>
-  <section id="contact" class="contact box">
-    <h2>Contactanos</h2>
-    <a href="https://gmail.com/nlfashionnl@gmail.com"><img src="IM/gmail.png" style="width: 100px; height:100px; position: center;"></a>
-    <a href="https://instagram.com/nlfashionnl4"><img src="IM/ig.jpg" style="width: 100px; height:100px; position:center; border-radius:10%;"></a>
-	<a href="https://www.facebook.com/pepa.garcia.7140497"><img src="IM/facebook.png" style="width: 100px; height:100px; position:center; border-radius:10%;"></a>
+  <section id="hombre" class="favourites box">
+    <h2>HOMBRES</h2>
+    <img class="favourite" src="IIM/6.jpg">
+    <img class="favourite" src="IIM/7.jpg">
+    <img class="favourite" src="IIM/8.jpg">
+	<img class="favourite" src="IIM/9.jpg">
+    <img class="favourite" src="IIM/10.jpg">
+	<img class="favourite" src="IIM/14.jpg">
+	<img class="favourite" src="IIM/15.jpg">
+    <img class="favourite" src="IIM/16.jpg">
+  </section>
+
+ 
   </section>
 </body>
-</html 
-	}
-	}
+</html>
